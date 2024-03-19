@@ -1,9 +1,9 @@
 import { Route,Routes } from 'react-router-dom';
 import './App.css';
-import { Navbar } from './components/Navbar/Navbar';
-import { Home } from './components/pages/Home/Home';
-import { Cart } from './components/pages/Cart/Cart';
-import { PlaceOrder } from './components/pages/PlaceOrder/PlaceOrder';
+import {Navbar} from "./components/Navbar/Navbar"
+import {Home} from "./pages/Home/Home"
+import { Cart } from './pages/Cart/Cart';
+import { PlaceOrder } from './pages/PlaceOrder/PlaceOrder';
 
 function App() {
 
