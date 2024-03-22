@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
 import "./Cart.css"
 import { StoreContext } from '../../context/StoreContext'
-import { food_list } from '../../assets/assets'
+
 
 export const Cart = () => {
-  const {cartItems,foot_list,removeFromCart}=useContext(StoreContext)
+  const {cartItems,food_list,removeFromCart}=useContext(StoreContext)
   return (
     <div className='cart'>
       <div className="cart-items">
@@ -27,10 +27,10 @@ export const Cart = () => {
            <div className='cart-items-title cart-items-item'>
             <img src={item.image} alt="" />
             <p>{item.name}</p>
-            <p>{item.price}</p>
+            <p>${item.price}</p>
             <p>{cartItems[item._id]}</p>
-            <p>{item.price*cartItems[item._id]}</p>
-            <p>x</p>
+            <p>${item.price*cartItems[item._id]}</p>
+            <p onClick={()=>removeFromCart(item._id)} className='cross'>x</p>
            </div>
            <hr />
       </div>
