@@ -34,10 +34,10 @@ The website is currently deployed and accessible at: [Tomato Website](https://to
 ## Website Screenshots
 
 ### Home
-![Home](src/assets/home.png)
+![Home](foodapp/src/assets/home.png)
 
 ### Menu
-![Menu](src/assets/top-dishes.png)
+![Menu](foodapp/src/assets/top-dishes.png)
 
 ### Mobile App
 ![Mobile App](foodapp/src/assets/explore.png)
