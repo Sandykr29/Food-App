@@ -1,6 +1,6 @@
 # Tomato Food Website
 
-Tomato is a React-based food website project created by Sandeep Kumar. It provides a platform to explore delicious dishes, order food via a mobile app, and manage orders conveniently. The website is built using ReactJS, HTML, CSS, and JavaScript.
+Tomato is a React-based food website project created by Sandeep Kumar. It provides a platform to explore delicious dishes, order food via website, and manage orders conveniently. The website is built using ReactJS, HTML, CSS, and JavaScript.
 
 ## Deployment
 
@@ -40,16 +40,16 @@ The website is currently deployed and accessible at: [Tomato Website](https://to
 ![Menu](src/assets/top-dishes.png)
 
 ### Mobile App
-![Mobile App](src/assets/explore.png)
+![Mobile App](foodapp/src/assets/explore.png)
 
 ### Cart
-![Cart](src/assets/cart.png)
+![Cart](foodapp/src/assets/cart.png)
 
 ### Sign Up
-![Sign Up](src/assets/signup.png)
+![Sign Up](foodapp/src/assets/signup.png)
 
 ### Login
-![Login](src/assets/login.png)
+![Login](foodapp/src/assets/login.png)
 
 ## Author
 
